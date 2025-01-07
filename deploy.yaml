@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: wordpress
-        image: reddy2705/wordpress:latest
+        image: spandana837/wordpress:latest
         env:
         - name: WORDPRESS_DB_HOST
           value: mysql
