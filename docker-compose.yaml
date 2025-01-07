@@ -10,8 +10,8 @@ services:
       - "8000:80"
     environment:
       WORDPRESS_DB_HOST: db:3306
-      WORDPRESS_DB_USER: shiva
-      WORDPRESS_DB_PASSWORD: shiva123
+      WORDPRESS_DB_USER: puppy
+      WORDPRESS_DB_PASSWORD: puppy123
       WORDPRESS_DB_NAME: wordpressdb
     volumes:
       - wordpress_data:/var/www/html
@@ -22,8 +22,8 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: rootpassword
       MYSQL_DATABASE: wordpressdb
-      MYSQL_USER: shiva
-      MYSQL_PASSWORD: shiva123
+      MYSQL_USER: puppy
+      MYSQL_PASSWORD: puppy123
     volumes:
       - db_data:/var/lib/mysql
 
